@@ -3,7 +3,7 @@
 ## Purpose:
  The Workout scheduler is meant to help people start a healthy way of living by making them workout,\
 and make the process of starting as easy as possible. With a user interface that is simple to use\
-and understand and an easy way to add new workouts will enable users of all different levels of fitness to be able to use this site\
+and understand and an easy way to add new workouts will enable users of all different levels of fitness to be able to use this site
 ### Objective:
  The Aim of our project was to provide an opensource personalised **Workout Schedular** site for Workingout at home as per the users preference.\
 **For Guest Users:**\
@@ -41,9 +41,9 @@ on your browser it launches the homepage of the site. then you are good to use t
 
 ## SCREENSHOTS OF THIS PROJECT:
 
-* **HOME PAGE OF THE SITE**\
-* **LOGIN PAGE OF THE SITE**\
-* **SIGNUP PAGE OF THE SITE**\
-* **WORKOUT PAGE FOR GUEST USER**\
-* **WORKOUT PAGE FOR SIGNED IN USER**\
+* **HOME PAGE OF THE SITE**
+* **LOGIN PAGE OF THE SITE**
+* **SIGNUP PAGE OF THE SITE**
+* **WORKOUT PAGE FOR GUEST USER**
+* **WORKOUT PAGE FOR SIGNED IN USER**
 
