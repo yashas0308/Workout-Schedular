@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Create workout</title>
+	<link rel="stylesheet" type="text/css" href="CSS/creatework.css">
+	<script type="text/javascript">
+		
+
+        var optlist=["Pushups","ArcherPushups","Pullups","Squats","Lunges","JumpingSquats","Chinups"];
+        var len=0;
+		function buildBoxes()
+		{ 
+			var n=document.getElementById("noe").value;
+
+			if(isNaN(n))
+			{
+                alert("Enter a number ");
+			}
+			else
+			{   
+
+                    var Wnm = document.createElement("INPUT");
+         			Wnm.setAttribute("id","wname");
+         			Wnm.setAttribute("type","text");
+         			Wnm.setAttribute("class","geninput");
+         			Wnm.setAttribute("placeholder","Enter Workout Name");
+         			document.body.appendChild(Wnm);
+         			var cpar=document.createElement("br");
+                    document.body.appendChild(cpar);         			
+
+				l=parseInt(n);
+				len=l;
+				for(var i=0;i<l;i++)
+				{
+					var selP = document.createElement("SELECT");
+          			selP.setAttribute("id","sll"+i);
+          			selP.setAttribute("class","selects");
+          			selP.style.width="100px";
+         			document.body.appendChild(selP);
+
+         			for(var j=0;j<optlist.length;j++)
+         			{
+         				var opn = document.createElement("OPTION");
+         				opn.value=optlist[j];
+         				opn.innerHTML=optlist[j];
+         				selP.add(opn);
+
+         			}
+         			var durI = document.createElement("INPUT");
+         			durI.setAttribute("id","edur"+i);
+         			durI.setAttribute("type","text");
+         			durI.setAttribute("class","inputs");
+         			durI.setAttribute("value","0");
+         			durI.setAttribute("required","");
+         			durI.setAttribute("pattern","[0-9]{3}");
+         			durI.setAttribute("placeholder","Enter duration in seconds");
+         			document.body.appendChild(durI);
+
+         			var cpar=document.createElement("br");
+                    document.body.appendChild(cpar);
+				}
+
+				var butn = document.createElement("BUTTON");
+				butn.innerText = "Add workout";
+				butn.setAttribute("class","addbtn");
+				butn.onclick=function(){
+					//alert("Adding workout "+document.getElementById("wname").value);
+					var wonm=document.getElementById("wname").value;
+					if(wonm=="")
+					{
+						alert("Enter a unique name for the workout");
+					}
+					else
+					{
+						var enames=[];
+					var edurs=[];
+					var finalWD="";
+					
+					for(var x=0;x<len;x++)
+					{
+						enames[x]=document.getElementById("sll"+x).value;
+						var tn=document.getElementById("edur"+x).value;
+						if(isNaN(tn)|| tn == "")
+						{
+							alert("Only enter numbers in the duration feild, default value of 30s will be taken for "+enames[x]);
+							edurs[x]=30;
+
+						}
+						else
+						{
+							edurs[x]=parseInt(tn);
+						}
+					}
+
+					for(var x=0;x<len-1;x++)
+					{
+                       finalWD=finalWD+""+enames[x]+"+"+edurs[x]+"|";
+					}
+					finalWD=finalWD+""+enames[len-1]+"+"+edurs[len-1];
+
+					alert("Added Workout: "+wonm);
+					location.replace("addWorkout.php?DTP="+finalWD+"?"+wonm);
+					}
+					
+				};
+				document.body.appendChild(butn);
+			}
+		}
+	</script>
+</head>
+<body>
+<div id="note1">Create &nbsp Your &nbsp Own &nbsp Workout!</div><br>
+<div id="note">Enter the number of excersices to create workout!</div><br>
+<input type="text" id="noe" placeholder="Enter the value" required>&nbsp
+<button onclick="buildBoxes()" id="butn">Build</button>
+
+</body>
+</html>

@@ -1,0 +1,118 @@
+.inputs{
+	margin-left: 10px;
+	color: white;
+	padding: 5px;
+	background: none;
+	width: 160px;
+	border: 1px solid white;
+
+}
+
+.geninput{
+	margin-top: 10px;
+	margin-left: 20px;
+	width: 270px;
+	height: 20px;
+	color: white;
+	padding: 5px;
+	background: none;
+	border: 1px solid white;
+	font-family: century gothic;
+	font-size: 14px;
+
+
+}
+
+.selects{
+	margin-top: 10px;
+	margin-left: 20px;
+	color: black;
+	background: white;
+	border: 1px solid black;
+	font-family: century gothic;
+	font-size: 14px;
+	padding: 5px;
+
+}
+
+#note{
+	margin-top: 0px;
+	margin-left: 20px;
+	color: white;
+	font-family: century gothic;
+	font-size: 16px;
+	background: none;
+	padding: 10px,12px;
+	text-align: left;
+}
+
+#note1{
+	margin-top: 18px;
+	margin-left: 10px;
+	color: white;
+	font-family: Facon;
+	font-size: 18px;
+	font-weight: bold;
+	background: none;
+	padding: 10px,12px;
+	text-align: left;
+}
+
+#noe{
+	margin-top: 0px;
+	margin-left: 20px;
+	background: none;
+	border: 1px solid white;
+	color: white;
+	font-family: century gothic;
+	font-size: 12px;
+	width: 200px;
+	height: 20px;
+	padding: 5px;
+}
+
+#butn{
+	color: white;
+	background: none;
+	border: 1px solid white;
+	font-family: century gothic;
+	font-size: 12px;
+	width: 60px;
+	height: 30px;
+	transition: 0.4s;
+	padding: 5px;
+
+}
+
+#butn:hover{
+	color: black;
+	background-color: white;
+	border: 1px solid white;
+	font-size: 14px;
+	font-weight: bold;
+	transition: 0.4s;
+}
+
+.addbtn{
+	margin-top: 10px;
+	margin-left: 50px;
+	width: 200px;
+	height: 35px;
+	color: white;
+	background: none;
+	border: 1px solid white;
+	font-size: 15px;
+	font-family: century gothic;
+	transition: 0.8s;
+	padding: 5px;
+
+}
+
+.addbtn:hover{
+	color: black;
+	background-color: white;
+	border: 1px solid white;
+	font-size: 17px;
+	transition: 0.8s;
+	font-weight: bold;
+}

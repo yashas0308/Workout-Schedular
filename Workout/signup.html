@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="CSS/signup.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <style type="text/css">
+      label{
+        font-family:"Century Gothic";
+        color: white;
+        font-size: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="signup-form">
+      <form class="" action="registerAcc.php" method="post">
+        <h1>Sign Up</h1>
+        <input type="text" placeholder="User Name" class="txtb" name="Rname" required>
+        <label>Note: Enter max of 6 digit password</label>
+        <input type="text" placeholder="Password" class="txtb" pattern="[A-Za-z0-9,@,#,$]{6}" name="Rpwd" title="Six letter code" required>
+        <input type="submit" style="font-family: Facon;" value="Create Account" class="signup-btn" name="signUpB">
+        <a href="mainpage.html" class="signup-btn2" style="font-family: Facon;"><button class="home"><i class="fas fa-home"></i>&nbsp &nbsp GO BACK</button></a>
+      <br>
+        <a href="index.php">Already Have one ?</a>
+      </form>
+    </div>
+  </body>
+</html>

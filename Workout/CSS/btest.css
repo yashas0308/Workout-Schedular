@@ -1,0 +1,109 @@
+@font-face{
+	font-family: Seven Segment;
+	src: url(Seven Segment.ttf);
+}
+
+body{
+	text-align: center;
+	background:none;
+	font-family: Arial;
+}
+
+#container{
+	margin-top: 20px;
+	width: 380px;
+	height: 380px;
+	border: 1px solid white;
+	border-collapse: collapse;
+}
+
+#startDiv{
+	margin: 0px;
+
+}
+
+#sometext{
+	margin-top: 15px;
+	width: 300px;
+	height: 100px;
+	color: white;
+	border: 1px solid white;
+	font-family: "Century Gothic";
+	font-size: 14px;
+	padding: 10px;
+}
+#cwp{
+	float: left;
+}
+#exn{
+	float: left;
+}
+#exd{
+       float: left; 
+}
+#timerP{
+		top: 25px;
+		width: 110px;
+		height: 80px;
+		border: 3px solid white;
+		font-family: Seven Segment;
+		font-size: 80px;
+		color: white;
+		padding: 10px;
+
+
+}
+
+.butons{
+	font-family: century gothic;
+	font-size: 14px;
+	padding: 5px;
+	width: 80px;
+	height: 45px;
+	float: left;
+	transition: 0.4s;
+}
+.butons:hover{
+	color: yellow;
+	background-color: #000;
+	transition: 0.8s;
+}
+
+#timer:hover{
+	color: red;
+}
+#cB{
+	   margin-top: 0px;
+       background:none;
+       border: 1px solid white;
+       color: white;
+       font-size:14px;
+       font-family: arial;
+       padding: 7px,9px;
+       transition: 0.4s;
+       width: 100px;
+       height: 45px;
+}
+#cB:hover{
+	background-color: white;
+	color: black;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#btn{
+	background: none;
+	width: 220px;
+	height: 25px; 
+	border: 1px solid white; 
+	color:white;
+	font-size: 15px;
+	transition: 0.4s;
+}
+
+#btn:hover{
+	background-color: #f5f5f5;
+	color: black;
+	font-weight: bold;
+	font-size: 18px;
+}
