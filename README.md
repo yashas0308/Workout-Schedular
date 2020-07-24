@@ -41,9 +41,18 @@ on your browser it launches the homepage of the site. then you are good to use t
 
 ## SCREENSHOTS OF THIS PROJECT:
 
-* **HOME PAGE OF THE SITE**
-* **LOGIN PAGE OF THE SITE**
-* **SIGNUP PAGE OF THE SITE**
-* **WORKOUT PAGE FOR GUEST USER**
-* **WORKOUT PAGE FOR SIGNED IN USER**
+* **HOME PAGE OF THE SITE**\
+![](Workout/Snapshots/1Mainpage_screen.png)
+
+* **LOGIN PAGE OF THE SITE**\
+![](Workout/Snapshots/2loginpage.png)
+
+* **SIGNUP PAGE OF THE SITE**\
+![](Workout/Snapshots/3signup_page.png)
+
+* **WORKOUT PAGE FOR GUEST USER**\
+![](Workout/Snapshots/4Workout_screen.png)
+
+* **WORKOUT PAGE FOR SIGNED IN USER**\
+![](Workout/Snapshots/5Homepage_screen.png)
 
